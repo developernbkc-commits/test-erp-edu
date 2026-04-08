@@ -1,0 +1,14 @@
+<svg width="760" height="520" viewBox="0 0 760 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="520" rx="32" fill="#FAFCFF"/>
+  <rect x="74" y="58" width="612" height="404" rx="28" fill="white" stroke="#DDE6F6" stroke-width="2"/>
+  <rect x="106" y="98" width="196" height="18" rx="9" fill="#E8EFFA"/>
+  <rect x="106" y="140" width="262" height="230" rx="28" fill="#F7FAFE"/>
+  <rect x="398" y="140" width="258" height="96" rx="24" fill="#FFF3E4"/>
+  <rect x="398" y="254" width="258" height="116" rx="24" fill="#EAF2FF"/>
+  <path d="M180 262C180 230.072 205.888 204.184 237.816 204.184C269.744 204.184 295.632 230.072 295.632 262V308H180V262Z" fill="#EAF2FF"/>
+  <path d="M214 308V256H262V308" stroke="#4F7CFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M154 276L238 190L322 276" stroke="#8D66FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="438" y="176" width="112" height="12" rx="6" fill="#F7D58E"/>
+  <rect x="438" y="200" width="94" height="12" rx="6" fill="#FCE2B4"/>
+  <path d="M482 317L516 283L542 305L584 257" stroke="#4F7CFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

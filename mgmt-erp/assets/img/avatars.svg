@@ -1,0 +1,11 @@
+<svg width="720" height="320" viewBox="0 0 720 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="320" rx="28" fill="#F9FBFE"/>
+  <circle cx="126" cy="110" r="46" fill="#EAF2FF"/><rect x="68" y="176" width="116" height="76" rx="28" fill="#4F7CFF"/>
+  <circle cx="298" cy="110" r="46" fill="#F4EEFF"/><rect x="240" y="176" width="116" height="76" rx="28" fill="#8D66FF"/>
+  <circle cx="470" cy="110" r="46" fill="#E7FAF5"/><rect x="412" y="176" width="116" height="76" rx="28" fill="#00A985"/>
+  <circle cx="594" cy="110" r="46" fill="#FFF3E4"/><rect x="536" y="176" width="116" height="76" rx="28" fill="#F59E0B"/>
+  <text x="112" y="118" font-family="system-ui, sans-serif" font-size="28" fill="#3358A7" font-weight="700">A</text>
+  <text x="284" y="118" font-family="system-ui, sans-serif" font-size="28" fill="#6944D6" font-weight="700">P</text>
+  <text x="456" y="118" font-family="system-ui, sans-serif" font-size="28" fill="#007B62" font-weight="700">F</text>
+  <text x="578" y="118" font-family="system-ui, sans-serif" font-size="28" fill="#B36F05" font-weight="700">S</text>
+</svg>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Login & Demo Access · Samvida School ERP Cloud</title>
+  <meta name="description" content="Static HTML prototype for a school management ERP.">
+  <link rel="icon" href="../assets/img/samvida-logo.png">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <div class="page-wrap">
+    
+    <header class="top-nav">
+      <a class="brand-lockup" href="../index.html">
+        <img src="../assets/img/samvida-logo.png" alt="Samvida Labs logo">
+        <div>
+          <div class="brand-title">Samvida School ERP Cloud</div>
+          <div class="brand-subtitle">Static demo prototype · light themed · Netlify ready</div>
+        </div>
+      </a>
+      <div class="top-actions">
+        <a class="pill-link" href="../login/">Demo access</a>
+        <a class="pill-link" href="../admissions/">Admissions</a>
+        <a class="pill-link" href="../students/">Student app</a>
+        <a class="pill-link" href="../parents/">Parent app</a>
+        <a class="cta" href="../console/">Open administrator console</a>
+      </div>
+    </header>
+    
+    
+<div class="login-layout">
+  <section class="login-side">
+    <div>
+      <a class="brand-lockup" href="../index.html">
+        <img src="../assets/img/samvida-logo.png" alt="Samvida Labs logo">
+        <div>
+          <div class="brand-title">Samvida School ERP Cloud</div>
+          <div class="brand-subtitle">Static role-based demo access</div>
+        </div>
+      </a>
+      <div style="margin-top:22px" class="demo-badge"><span class="dot"></span> Role switcher for presentations, demos, and stakeholder walkthroughs</div>
+      <h1 style="font-size:clamp(2.2rem,4vw,3.6rem);margin:22px 0 16px;letter-spacing:-0.05em;line-height:1.02">Open the complete school ERP in a few clicks.</h1>
+      <p class="section-copy">Choose a role, use the sample credentials, and jump directly into a polished, fully navigable static prototype. Every page is connected and designed to feel easy for administrators and impressive for prospects.</p>
+    </div>
+    <div class="stack">
+      <img src="../assets/img/avatars.svg" alt="Role illustration">
+      <div class="cards-2">
+        <div class="flow-card">
+          <strong>Admin walk-through</strong>
+          <p class="note">Campus pulse, approvals, admissions, finance, maintenance, and reporting from one command center.</p>
+        </div>
+        <div class="flow-card">
+          <strong>Role-specific app demos</strong>
+          <p class="note">Student, parent, faculty, admissions, and operations pages can be presented independently.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="login-panel">
+    <div class="login-card">
+      <div class="eyebrow">Demo access</div>
+      <h2 style="margin:0 0 10px;letter-spacing:-0.04em">Static sign-in</h2>
+      <p class="note">This is a presentation prototype only. The credentials below are fixed and route to static role-based pages.</p>
+      <form class="form-grid" data-login-form style="margin-top:20px">
+        <div class="role-grid">
+          <div class="role-card selected" data-role-card="admin"><strong>Administrator</strong><p class="note">Best starting point for full ERP demonstrations.</p></div>
+          <div class="role-card" data-role-card="admissions"><strong>Admissions lead</strong><p class="note">Show enquiry-to-enrollment operations.</p></div>
+          <div class="role-card" data-role-card="faculty"><strong>Faculty app</strong><p class="note">Timetable, attendance, grading, and daily teaching workflow.</p></div>
+          <div class="role-card" data-role-card="parent"><strong>Parent app</strong><p class="note">Approvals, fees, meetings, transport, and alerts.</p></div>
+          <div class="role-card" data-role-card="student"><strong>Student app</strong><p class="note">Learning journey, homework, exams, and attendance.</p></div>
+          <div class="role-card" data-role-card="finance"><strong>Finance console</strong><p class="note">Collections, concessions, and due management.</p></div>
+        </div>
+        <input type="hidden" name="role" value="admin">
+        <label>
+          <div class="small muted" style="margin-bottom:8px">Email</div>
+          <input class="input" type="email" value="admin@samvida-demo.com">
+        </label>
+        <label>
+          <div class="small muted" style="margin-bottom:8px">Password</div>
+          <input class="input" type="password" value="Samvida@123">
+        </label>
+        <button class="cta" type="submit">Open selected demo</button>
+      </form>
+      <div class="credentials">
+        <div class="row"><strong>Demo credentials</strong><a class="chip" href="../sitemap/">Module map</a></div>
+        <code>Administrator · admin@samvida-demo.com · Samvida@123</code>
+        <code>Admissions · admissions@samvida-demo.com · Admit@123</code>
+        <code>Faculty · faculty@samvida-demo.com · Faculty@123</code>
+        <code>Parent · parent@samvida-demo.com · Parent@123</code>
+        <code>Student · student@samvida-demo.com · Student@123</code>
+      </div>
+      <div class="section" style="margin-top:18px">
+        <div class="notice">Tip: start with the administrator console, then drill into admissions, student, parent, and faculty experiences from the left sidebar.</div>
+      </div>
+    </div>
+  </section>
+</div>
+
+    <div class="footer">
+      <div>Samvida Labs · School ERP Cloud demonstration prototype</div>
+      <div class="inline-stats">
+        <div class="inline-stat"><strong>Static credentials</strong><span>No database required</span></div>
+        <div class="inline-stat"><strong>Netlify ready</strong><span>Drop-in deployable site</span></div>
+      </div>
+    </div>
+  </div>
+  <script src="../assets/js/app.js"></script>
+</body>
+</html>
