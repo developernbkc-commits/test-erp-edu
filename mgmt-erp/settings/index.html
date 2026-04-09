@@ -1,196 +1,254 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Configuration Center · Samvida School ERP Cloud</title>
-  <meta name="description" content="Static ERP prototype for school management by Samvida Labs.">
-  <link rel="icon" href="../assets/img/samvida-logo.png">
-  <link rel="stylesheet" href="../assets/css/styles.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Configuration Center · Samvida School ERP Cloud</title>
+<meta content="Elegant school ERP demonstration for admissions, academics, parent engagement, finance, transport, and operations." name="description"/>
+<link href="../assets/img/samvida-logo.png" rel="icon"/>
+<link href="../assets/css/styles.css" rel="stylesheet"/>
 </head>
-<body>
-  <div class="admin-shell">
-    
-    <aside class="sidebar">
-      <a class="brand-lockup" href="../index.html">
-        <img src="../assets/img/samvida-logo.png" alt="Samvida Labs logo">
-        <div>
-          <div class="brand-title">Samvida School ERP</div>
-          <div class="brand-subtitle">Administrator prototype</div>
-        </div>
-      </a>
-      <div class="workspace-switcher">
-        <div>
-          <strong>Demo campus</strong>
-          <span>Northstar International School · FY 2026–27</span>
-        </div>
-        <span class="status blue">Static</span>
-      </div>
-      <div class="nav-label">Demo workspace</div><div class="nav-group"><a class="nav-link" href="../index.html" data-nav-path="/index.html">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">OV</span><span>Overview</span></span>
-                  
-                </a><a class="nav-link" href="../login/" data-nav-path="/login/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">GO</span><span>Login & Demo Access</span></span>
-                  
-                </a><a class="nav-link" href="../console/" data-nav-path="/console/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">AD</span><span>Admin Console</span></span>
-                  <span class="nav-badge">Live</span>
-                </a><a class="nav-link" href="../admissions/" data-nav-path="/admissions/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">AM</span><span>Admissions</span></span>
-                  <span class="nav-badge">Live</span>
-                </a></div><div class="nav-label">Apps & operations</div><div class="nav-group"><a class="nav-link" href="../students/" data-nav-path="/students/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">ST</span><span>Student App</span></span>
-                  <span class="nav-badge">Live</span>
-                </a><a class="nav-link" href="../parents/" data-nav-path="/parents/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">PA</span><span>Parent App</span></span>
-                  <span class="nav-badge">Live</span>
-                </a><a class="nav-link" href="../faculty/" data-nav-path="/faculty/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">FC</span><span>Faculty App</span></span>
-                  <span class="nav-badge">Live</span>
-                </a><a class="nav-link" href="../finance/" data-nav-path="/finance/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">FI</span><span>Finance</span></span>
-                  
-                </a><a class="nav-link" href="../transport/" data-nav-path="/transport/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">TR</span><span>Transport</span></span>
-                  
-                </a><a class="nav-link" href="../communications/" data-nav-path="/communications/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">CM</span><span>Communications</span></span>
-                  
-                </a><a class="nav-link" href="../reports/" data-nav-path="/reports/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">RP</span><span>Reports</span></span>
-                  
-                </a></div><div class="nav-label">Administration</div><div class="nav-group"><a class="nav-link" href="../settings/" data-nav-path="/settings/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">CF</span><span>Settings</span></span>
-                  
-                </a><a class="nav-link" href="../fault-desk/" data-nav-path="/fault-desk/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">FD</span><span>Fault Desk</span></span>
-                  
-                </a><a class="nav-link" href="../sitemap/" data-nav-path="/sitemap/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">SM</span><span>Sitemap</span></span>
-                  
-                </a></div>
-    </aside>
-    
-    <main class="main">
-      
-    <div class="toolbar">
-      <div>
-        <div class="breadcrumbs">Prototype / Configuration</div>
-        <h1>Configuration Center</h1>
-        <p>Complete setup for campus structure, role control, apps, finance policy, and operational workflows.</p>
-      </div>
-      <div class="toolbar-actions">
-        <div class="search">
-          <span>⌕</span>
-          <input type="text" placeholder="Search modules, students, routes, settings…">
-        </div>
-        <button class="icon-btn" aria-label="Notifications">⎋</button>
-        <div class="user-chip">
-          <div class="avatar">SA</div>
-          <div>
-            <strong>School Admin</strong>
-            <div class="xsmall muted">Demo access</div>
-          </div>
-        </div>
-        </div>
-    </div>
-    
-      
+<body data-demo-experience="school-erp">
+<div class="admin-shell">
+<aside class="sidebar">
+<a class="brand-lockup" href="../index.html">
+<img alt="Samvida Labs logo" src="../assets/img/samvida-logo.png"/>
+<div>
+<div class="brand-title">Samvida School ERP</div>
+<div class="brand-subtitle">School operations control plane</div>
+</div>
+</a>
+<div class="workspace-switcher">
+<div>
+<strong>Demo campus</strong>
+<span>Northstar International School · FY 2026–27</span>
+</div>
+<span class="status blue" data-tooltip="Sample campus records are preloaded for guided walkthroughs.">Sample data</span>
+</div>
+<div class="nav-label">Demo workspace</div><div class="nav-group"><a class="nav-link" data-nav-path="/index.html" href="../index.html">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">OV</span><span>Overview</span></span>
+</a><a class="nav-link" data-nav-path="/login/" href="../login/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">GO</span><span>Login &amp; Demo Access</span></span>
+</a><a class="nav-link" data-nav-path="/console/" href="../console/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">AD</span><span>Admin Console</span></span>
+<span class="nav-badge">Live</span>
+</a><a class="nav-link" data-nav-path="/admissions/" href="../admissions/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">AM</span><span>Admissions</span></span>
+<span class="nav-badge">Live</span>
+</a></div><div class="nav-label">Apps &amp; operations</div><div class="nav-group"><a class="nav-link" data-nav-path="/students/" href="../students/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">ST</span><span>Student App</span></span>
+<span class="nav-badge">Live</span>
+</a><a class="nav-link" data-nav-path="/parents/" href="../parents/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">PA</span><span>Parent App</span></span>
+<span class="nav-badge">Live</span>
+</a><a class="nav-link" data-nav-path="/faculty/" href="../faculty/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">FC</span><span>Faculty App</span></span>
+<span class="nav-badge">Live</span>
+</a><a class="nav-link" data-nav-path="/finance/" href="../finance/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">FI</span><span>Finance</span></span>
+</a><a class="nav-link" data-nav-path="/transport/" href="../transport/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">TR</span><span>Transport</span></span>
+</a><a class="nav-link" data-nav-path="/communications/" href="../communications/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">CM</span><span>Communications</span></span>
+</a><a class="nav-link" data-nav-path="/reports/" href="../reports/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">RP</span><span>Reports</span></span>
+</a></div><div class="nav-label">Administration</div><div class="nav-group"><a class="nav-link" data-nav-path="/settings/" href="../settings/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">CF</span><span>Settings</span></span>
+</a><a class="nav-link" data-nav-path="/fault-desk/" href="../fault-desk/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">FD</span><span>Fault Desk</span></span>
+</a><a class="nav-link" data-nav-path="/sitemap/" href="../sitemap/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">SM</span><span>Sitemap</span></span>
+</a></div>
+</aside>
+<main class="main">
+<div class="toolbar">
+<div>
+<div class="breadcrumbs">Workspace / Configuration</div>
+<h1>Configuration Center</h1>
+<p>Complete setup for campus structure, role control, apps, finance policy, and operational workflows.</p>
+</div>
+<div class="toolbar-actions">
+<div class="search">
+<span>⌕</span>
+<input placeholder="Search modules, students, routes, settings…" type="text"/>
+</div>
+<button aria-label="Notifications" class="icon-btn">⎋</button>
+<div class="user-chip">
+<div class="avatar">SA</div>
+<div>
+<strong>School Admin</strong>
+<div class="xsmall muted">Demo access</div>
+</div>
+</div>
+</div>
+</div>
 <section class="cards-2">
-  <div class="card">
-    <div class="eyebrow">Platform configuration</div>
-    <h3>Set up the entire school from one elegant control plane</h3>
-    <p class="note">The configuration page demonstrates how administrators can manage campus structure, academic years, roles, fee plans, app widgets, approvals, and policy rules without technical complexity.</p>
-    <img src="../assets/img/config-illustration.svg" alt="Configuration illustration" style="margin-top:18px">
-  </div>
-  <div class="stack">
-    <div class="card">
-      <div class="eyebrow">Quick setup checklist</div>
-      <div class="timeline" style="margin-top:14px">
-        <div class="timeline-step"><div class="pin">1</div><div class="body"><strong>Campus & academic structure</strong><p>Campuses, grades, sections, houses, elective groups, and calendars.</p></div></div>
-        <div class="timeline-step"><div class="pin">2</div><div class="body"><strong>Roles & permissions</strong><p>Admin, admissions, faculty, parent, transport, finance, and facilities.</p></div></div>
-        <div class="timeline-step"><div class="pin">3</div><div class="body"><strong>Apps & workflows</strong><p>Home widgets, approvals, transport, notifications, and escalation logic.</p></div></div>
-      </div>
-    </div>
-    <div class="card green">
-      <div class="eyebrow">Design principle</div>
-      <div class="callout">Configuration should feel structured, not technical. The prototype keeps controls grouped by outcome: academic setup, app experience, finance policy, communication, and operational governance.</div>
-    </div>
-  </div>
+<div class="card">
+<div class="eyebrow">Configuration orchestration</div>
+<h3>Set up the school once and carry the rules across every workflow</h3>
+<p class="note">Academic structure, admissions policies, finance rules, parent-facing controls, and operational guardrails can be tuned from one calm control plane. This makes the demo feel like a real platform rather than a disconnected settings page.</p>
+<div class="config-preview" style="margin-top:18px">
+<div class="preview-column">
+<span class="preview-pill">Campuses &amp; grades</span>
+<span class="preview-pill">Academic years</span>
+<span class="preview-pill">Role matrix</span>
+<span class="preview-pill">Fee policies</span>
+<span class="preview-pill">Notifications</span>
+</div>
+<div class="preview-pane">
+<div class="preview-setting"><span>Guardian approval for pickup changes</span><span class="toggle on" data-tooltip="Pickup changes require authorized guardian confirmation before transport rosters update."></span></div>
+<div class="preview-setting"><span>Installment request workflow</span><span class="toggle on" data-tooltip="Finance can open, approve, or reject installment requests with a clear audit trail."></span></div>
+<div class="preview-setting"><span>Emergency alert escalation</span><span class="toggle on" data-tooltip="Critical notices can escalate to app alerts, SMS, and email in sequence."></span></div>
+</div>
+</div>
+</div>
+<div class="stack">
+<div class="card">
+<div class="eyebrow">Walkthrough path</div>
+<div class="timeline" style="margin-top:14px">
+<div class="timeline-step"><div class="pin">1</div><div class="body"><strong>Start with structure</strong><p>Show how campuses, grades, terms, and admissions forms are configured once and reused everywhere.</p></div></div>
+<div class="timeline-step"><div class="pin">2</div><div class="body"><strong>Move to policy controls</strong><p>Demonstrate billing rules, guardian approvals, transport controls, and communication guardrails.</p></div></div>
+<div class="timeline-step"><div class="pin">3</div><div class="body"><strong>Close with role impact</strong><p>Use the role matrix to explain how admin, admissions, faculty, finance, and operations see tailored home screens.</p></div></div>
+</div>
+</div>
+<div class="cards-2 compact-pair">
+<div class="card green">
+<div class="eyebrow">Why it matters</div>
+<h4>Admins gain control</h4>
+<p class="note">The system feels governed, not technical. Policies are understandable even for non-technical leadership teams.</p>
+</div>
+<div class="card purple">
+<div class="eyebrow">Demo cue</div>
+<h4>Click the switches</h4>
+<p class="note">Every switch reacts, so you can show how configuration decisions cascade through the product experience.</p>
+</div>
+</div>
+</div>
 </section>
-
 <section class="section config-grid">
-  <div class="config-card">
-    <h4>Academic setup</h4>
-    <div class="toggle-row"><span>Multiple campuses</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Academic years & terms</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Subject group templates</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>House / club structure</span><span class="toggle on"></span></div>
-  </div>
-  <div class="config-card">
-    <h4>Admissions controls</h4>
-    <div class="toggle-row"><span>Grade-specific forms</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Document checklists</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Counselling slots</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Offer expiry timer</span><span class="toggle on"></span></div>
-  </div>
-  <div class="config-card">
-    <h4>Apps & experience</h4>
-    <div class="toggle-row"><span>Student home widgets</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Parent action center</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Faculty lesson planner</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Role-specific dashboards</span><span class="toggle on"></span></div>
-  </div>
-  <div class="config-card">
-    <h4>Finance policy</h4>
-    <div class="toggle-row"><span>Installment plans</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Concessions and waivers</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Transport fee policy</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Late fee automation</span><span class="toggle on"></span></div>
-  </div>
-  <div class="config-card">
-    <h4>Communications</h4>
-    <div class="toggle-row"><span>Broadcast approvals</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Message templates</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Emergency alerts</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Multi-language copy</span><span class="toggle"></span></div>
-  </div>
-  <div class="config-card">
-    <h4>Operations & fault desk</h4>
-    <div class="toggle-row"><span>Maintenance issue categories</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>SLA by severity</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Closure proof upload</span><span class="toggle on"></span></div>
-    <div class="toggle-row"><span>Vendor assignment workflow</span><span class="toggle on"></span></div>
-  </div>
+<div class="config-card">
+<div class="row"><div><h4>Academic setup</h4><p class="note">Core structure for campuses, classes, and academic calendars.</p></div><button class="help-dot" data-tooltip="These settings shape timetables, reports, admissions forms, and student journeys.">i</button></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Multiple campuses</strong><small>Separate calendars, transport zones, and local fee plans.</small></div><span class="toggle on" data-tooltip="Useful for schools operating multiple branches or a main school plus junior campus."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Academic years &amp; terms</strong><small>Manage term boundaries, holidays, and exam windows centrally.</small></div><span class="toggle on" data-tooltip="Ensures attendance, gradebooks, and fee schedules follow the same academic cycle."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Subject group templates</strong><small>Reuse subject bundles by grade or program.</small></div><span class="toggle on" data-tooltip="Helps create new sections quickly without rebuilding subject groups from scratch."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>House &amp; club structure</strong><small>Support houses, co-curricular clubs, and inter-school events.</small></div><span class="toggle on" data-tooltip="Feeds leaderboards, attendance, and event participation experiences."></span></div>
+</div>
+<div class="config-card">
+<div class="row"><div><h4>Admissions controls</h4><p class="note">Shape the enquiry-to-offer journey with structured decision points.</p></div><button class="help-dot" data-tooltip="These controls keep the admissions team aligned across documents, counselling, and offers.">i</button></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Grade-specific forms</strong><small>Different questions and documents by intake level.</small></div><span class="toggle on" data-tooltip="Nursery, primary, middle school, and senior school can each collect different details."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Document checklists</strong><small>Birth certificate, transfer certificate, health records, and proofs.</small></div><span class="toggle on" data-tooltip="Lets the admissions desk track completion without relying on separate spreadsheets."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Counselling slots</strong><small>Offer and reschedule interview or campus interaction slots.</small></div><span class="toggle on" data-tooltip="This creates a predictable admissions rhythm for staff and parents."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Offer expiry timer</strong><small>Set clear response deadlines before waitlist release.</small></div><span class="toggle on" data-tooltip="Improves offer conversion and keeps seat allocation transparent."></span></div>
+</div>
+<div class="config-card">
+<div class="row"><div><h4>Apps &amp; experience</h4><p class="note">Tailor what students, parents, faculty, and leaders see first.</p></div><button class="help-dot" data-tooltip="A strong ERP should let each role land on the right actions without clutter.">i</button></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Student home widgets</strong><small>Homework, attendance, exam plan, and activity cards.</small></div><span class="toggle on" data-tooltip="The student home screen becomes a daily action center rather than a generic dashboard."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Parent action center</strong><small>Approvals, payments, meetings, and transport visibility.</small></div><span class="toggle on" data-tooltip="Parents can act quickly without calling the front office for routine requests."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Faculty lesson planner</strong><small>Lesson flow, assessments, and classroom communication in one place.</small></div><span class="toggle on" data-tooltip="Reduces switching across separate tools for class management."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Role-specific dashboards</strong><small>Leadership, admissions, finance, and operations each see tailored priorities.</small></div><span class="toggle on" data-tooltip="This is one of the strongest differentiation points in the demo."></span></div>
+</div>
+<div class="config-card">
+<div class="row"><div><h4>Finance policy</h4><p class="note">Keep billing, waivers, and receipt experiences predictable and parent-friendly.</p></div><button class="help-dot" data-tooltip="These rules influence fee schedules, communications, collections, and concession workflows.">i</button></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Installment plans</strong><small>Offer staged payments for eligible fee categories.</small></div><span class="toggle on" data-tooltip="Helpful for school groups that support structured payment options."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Concessions and waivers</strong><small>Track discounts, scholarships, and approval routing.</small></div><span class="toggle on" data-tooltip="Approvers can review evidence, remarks, and final decisions in one flow."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Transport fee policy</strong><small>Bundle, split, or reassign transport charges as needed.</small></div><span class="toggle on" data-tooltip="Useful when schools need route-based pricing or transport-specific collections."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Late fee automation</strong><small>Trigger reminders and auto-calculate penalties when policy applies.</small></div><span class="toggle on" data-tooltip="Demonstrates clear fee follow-up without manual spreadsheets."></span></div>
+</div>
+<div class="config-card">
+<div class="row"><div><h4>Communications</h4><p class="note">Make outreach consistent, approved, and easy to audit.</p></div><button class="help-dot" data-tooltip="Schools often need message templates, approvals, and emergency channels controlled centrally.">i</button></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Broadcast approvals</strong><small>Route principal-level approvals for sensitive messages.</small></div><span class="toggle on" data-tooltip="Prevents accidental mass communication and supports governance."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Message templates</strong><small>Save common notices for exams, fees, transport, and events.</small></div><span class="toggle on" data-tooltip="Improves speed and consistency for operational communication."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Emergency alerts</strong><small>Escalate across app alerts, SMS, and email when needed.</small></div><span class="toggle on" data-tooltip="Useful during transport delays, safety incidents, or urgent closures."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Multi-language copy</strong><small>Offer translated communication for parent communities.</small></div><span class="toggle" data-tooltip="Can be turned on later for schools serving multilingual parent groups."></span></div>
+</div>
+<div class="config-card">
+<div class="row"><div><h4>Operations &amp; fault desk</h4><p class="note">Bring campus maintenance and operational follow-up into the same system.</p></div><button class="help-dot" data-tooltip="Facilities teams need clear categories, SLAs, and closure evidence to keep operations transparent.">i</button></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Maintenance issue categories</strong><small>Electrical, HVAC, furniture, transport, safety, and IT.</small></div><span class="toggle on" data-tooltip="Categorization makes vendor assignment and SLA tracking far easier."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>SLA by severity</strong><small>Different response targets for critical vs routine issues.</small></div><span class="toggle on" data-tooltip="This is a strong operational differentiator when presenting the product."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Closure proof upload</strong><small>Capture photos, receipts, and remarks before resolving tickets.</small></div><span class="toggle on" data-tooltip="Prevents incomplete closure and strengthens accountability."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Vendor assignment workflow</strong><small>Assign vendors, track updates, and rate work quality.</small></div><span class="toggle on" data-tooltip="Shows that facilities management is treated as a real operating function, not an afterthought."></span></div>
+</div>
 </section>
-
-<section class="section">
-  <div class="card">
-    <div class="eyebrow">Role matrix</div>
-    <div class="table-wrap" style="margin-top:14px">
-      <table class="table">
-        <thead><tr><th>Role</th><th>What they can manage</th><th>What needs approval</th><th>Primary home screen</th></tr></thead>
-        <tbody>
-          <tr><td>School Admin</td><td>Global settings, roles, reports, policies</td><td>None</td><td>Administrator console</td></tr>
-          <tr><td>Admissions Lead</td><td>Pipeline, counselling, offers, applicant messages</td><td>Fee waiver requests</td><td>Admissions console</td></tr>
-          <tr><td>Faculty</td><td>Attendance, teaching content, grading, remarks</td><td>Grade release moderation</td><td>Faculty app</td></tr>
-          <tr><td>Accounts</td><td>Fee plans, receipts, due follow-up, concessions</td><td>Large waivers</td><td>Finance console</td></tr>
-          <tr><td>Facilities Manager</td><td>Fault desk, vendor assignment, maintenance SLAs</td><td>Capex spends</td><td>Fault desk</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
+<section class="section cards-2 policy-grid">
+<div class="config-card policy-card">
+<div class="row"><div><h4>Policy controls</h4><p class="note">Demonstrate the kind of policy tuning schools usually manage manually.</p></div><button class="help-dot" data-tooltip="These are especially useful during demos because leadership teams immediately understand their operational value.">i</button></div>
+<div class="sub-policy-grid" style="margin-top:14px">
+<div class="sub-policy-panel">
+<h5>Billing setup</h5>
+<div class="toggle-row"><div class="toggle-copy"><strong>Transport auto-bundled</strong><small>Attach route fees directly to relevant fee plans.</small></div><span class="toggle on" data-tooltip="Transport fees appear automatically whenever the student has an active route."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Hostel charges as separate ledger</strong><small>Keep boarding and transport visible as separate billing tracks.</small></div><span class="toggle on" data-tooltip="Useful for campuses with boarding or mixed day-school structures."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Late fee automation</strong><small>Apply penalties and reminders according to approved policy.</small></div><span class="toggle on" data-tooltip="Shows how collections and parent communication stay aligned."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Sibling discount stacking</strong><small>Allow or block combined concession logic.</small></div><span class="toggle" data-tooltip="This is a common policy question from trustees and finance teams."></span></div>
+</div>
+<div class="sub-policy-panel">
+<h5>Parent-facing controls</h5>
+<div class="toggle-row"><div class="toggle-copy"><strong>Digital receipts</strong><small>Issue instant downloadable fee acknowledgements.</small></div><span class="toggle on" data-tooltip="Helps reduce calls to the accounts desk after payments."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>UPI / card / net banking</strong><small>Expose multiple collection channels in the parent app.</small></div><span class="toggle on" data-tooltip="This is often a key buying point for school finance teams."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Installment request workflow</strong><small>Parents can request structured payment support with attachments.</small></div><span class="toggle on" data-tooltip="Lets schools balance empathy with documented approvals."></span></div>
+<div class="toggle-row"><div class="toggle-copy"><strong>Waiver request upload</strong><small>Guardians can submit supporting documents without email back-and-forth.</small></div><span class="toggle on" data-tooltip="Makes finance workflows more transparent and easier to audit."></span></div>
+</div>
+</div>
+</div>
+<div class="stack">
+<div class="card">
+<div class="eyebrow">Approval guardrails</div>
+<div class="list" style="margin-top:14px">
+<div class="list-item compact"><div><strong>Fee waiver above 15%</strong><p>Escalates to school admin and finance lead for joint sign-off.</p></div><span class="status amber">Review</span></div>
+<div class="list-item compact"><div><strong>Broadcast to all parents</strong><p>Requires principal approval before sending across app, email, and SMS.</p></div><span class="status blue">Controlled</span></div>
+<div class="list-item compact"><div><strong>High-severity maintenance issue</strong><p>Requires closure proof and principal acknowledgement before final resolution.</p></div><span class="status purple">Escalated</span></div>
+</div>
+</div>
+<div class="card purple">
+<div class="eyebrow">Presenter tip</div>
+<div class="callout">Toggle one or two controls during the demo, then move straight to Finance, Parent App, or Fault Desk to explain how those settings shape the real user experience.</div>
+</div>
+</div>
 </section>
-
-      <div class="footer">
-        <div>Samvida Labs · School ERP prototype · Static demo with sample data only</div>
-        <div class="inline-stats">
-          <div class="inline-stat"><strong>Admin first</strong><span>Light theme, guided flows</span></div>
-          <div class="inline-stat"><strong>Netlify ready</strong><span>Pure HTML/CSS/JS</span></div>
-        </div>
-      </div>
-    </main>
-  </div>
-  <script src="../assets/js/app.js"></script>
+<section class="section cards-2">
+<div class="card">
+<div class="eyebrow">Role matrix</div>
+<div class="table-wrap" style="margin-top:14px">
+<table class="table">
+<thead><tr><th>Role</th><th>What they can manage</th><th>What needs approval</th><th>Primary home screen</th></tr></thead>
+<tbody>
+<tr><td>School Admin</td><td>Global settings, roles, reports, policies</td><td>None</td><td>Administrator console</td></tr>
+<tr><td>Admissions Lead</td><td>Pipeline, counselling, offers, applicant messages</td><td>Fee waiver requests</td><td>Admissions console</td></tr>
+<tr><td>Faculty</td><td>Attendance, teaching content, grading, remarks</td><td>Grade release moderation</td><td>Faculty app</td></tr>
+<tr><td>Accounts</td><td>Fee plans, receipts, due follow-up, concessions</td><td>Large waivers</td><td>Finance console</td></tr>
+<tr><td>Facilities Manager</td><td>Fault desk, vendor assignment, maintenance SLAs</td><td>Capex spends</td><td>Fault desk</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="stack">
+<div class="card">
+<div class="eyebrow">What changes downstream</div>
+<div class="feature-list">
+<div class="feature"><div class="tick">✓</div><div><strong>Admissions experience stays aligned</strong><p class="note">Forms, checklists, counselling, and offers inherit the rules configured here.</p></div></div>
+<div class="feature"><div class="tick">✓</div><div><strong>Parent journeys become predictable</strong><p class="note">Payment methods, approvals, and communication rules feel intentional instead of stitched together.</p></div></div>
+<div class="feature"><div class="tick">✓</div><div><strong>Operations become accountable</strong><p class="note">Fault desk, transport alerts, and closure workflows follow governance rather than ad-hoc messaging.</p></div></div>
+</div>
+</div>
+<div class="card green">
+<div class="eyebrow">Suggested next click</div>
+<div class="list" style="margin-top:14px">
+<a class="list-item compact" href="../finance/"><div><strong>Open Finance</strong><p>Show how billing and receipts reflect the active policy design.</p></div><span class="status green">Next</span></a>
+<a class="list-item compact" href="../parents/"><div><strong>Open Parent App</strong><p>Demonstrate receipts, approvals, transport, and meeting requests.</p></div><span class="status blue">Next</span></a>
+<a class="list-item compact" href="../fault-desk/"><div><strong>Open Fault Desk</strong><p>Explain how operational guardrails shape issue reporting and closure.</p></div><span class="status purple">Next</span></a>
+</div>
+</div>
+</div>
+</section>
+<div class="footer">
+<div>Samvida Labs · School ERP demonstration · Sample campus data for guided walkthroughs</div>
+<div class="inline-stats">
+<div class="inline-stat"><strong>Admin first</strong><span>Clear decisions, clean navigation</span></div>
+<div class="inline-stat"><strong>Role journeys</strong><span>Admissions, parent, faculty, finance, operations</span></div>
+</div>
+</div>
+</main>
+</div>
+<script src="../assets/js/app.js"></script>
 </body>
 </html>

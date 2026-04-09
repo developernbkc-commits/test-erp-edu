@@ -1,198 +1,180 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Parent App · Samvida School ERP Cloud</title>
-  <meta name="description" content="Static ERP prototype for school management by Samvida Labs.">
-  <link rel="icon" href="../assets/img/samvida-logo.png">
-  <link rel="stylesheet" href="../assets/css/styles.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Parent App · Samvida School ERP Cloud</title>
+<meta content="Elegant school ERP demonstration for admissions, academics, parent engagement, finance, transport, and operations." name="description"/>
+<link href="../assets/img/samvida-logo.png" rel="icon"/>
+<link href="../assets/css/styles.css" rel="stylesheet"/>
 </head>
-<body>
-  <div class="admin-shell">
-    
-    <aside class="sidebar">
-      <a class="brand-lockup" href="../index.html">
-        <img src="../assets/img/samvida-logo.png" alt="Samvida Labs logo">
-        <div>
-          <div class="brand-title">Samvida School ERP</div>
-          <div class="brand-subtitle">Administrator prototype</div>
-        </div>
-      </a>
-      <div class="workspace-switcher">
-        <div>
-          <strong>Demo campus</strong>
-          <span>Northstar International School · FY 2026–27</span>
-        </div>
-        <span class="status blue">Static</span>
-      </div>
-      <div class="nav-label">Demo workspace</div><div class="nav-group"><a class="nav-link" href="../index.html" data-nav-path="/index.html">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">OV</span><span>Overview</span></span>
-                  
-                </a><a class="nav-link" href="../login/" data-nav-path="/login/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">GO</span><span>Login & Demo Access</span></span>
-                  
-                </a><a class="nav-link" href="../console/" data-nav-path="/console/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">AD</span><span>Admin Console</span></span>
-                  <span class="nav-badge">Live</span>
-                </a><a class="nav-link" href="../admissions/" data-nav-path="/admissions/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">AM</span><span>Admissions</span></span>
-                  <span class="nav-badge">Live</span>
-                </a></div><div class="nav-label">Apps & operations</div><div class="nav-group"><a class="nav-link" href="../students/" data-nav-path="/students/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">ST</span><span>Student App</span></span>
-                  <span class="nav-badge">Live</span>
-                </a><a class="nav-link" href="../parents/" data-nav-path="/parents/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">PA</span><span>Parent App</span></span>
-                  <span class="nav-badge">Live</span>
-                </a><a class="nav-link" href="../faculty/" data-nav-path="/faculty/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">FC</span><span>Faculty App</span></span>
-                  <span class="nav-badge">Live</span>
-                </a><a class="nav-link" href="../finance/" data-nav-path="/finance/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">FI</span><span>Finance</span></span>
-                  
-                </a><a class="nav-link" href="../transport/" data-nav-path="/transport/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">TR</span><span>Transport</span></span>
-                  
-                </a><a class="nav-link" href="../communications/" data-nav-path="/communications/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">CM</span><span>Communications</span></span>
-                  
-                </a><a class="nav-link" href="../reports/" data-nav-path="/reports/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">RP</span><span>Reports</span></span>
-                  
-                </a></div><div class="nav-label">Administration</div><div class="nav-group"><a class="nav-link" href="../settings/" data-nav-path="/settings/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">CF</span><span>Settings</span></span>
-                  
-                </a><a class="nav-link" href="../fault-desk/" data-nav-path="/fault-desk/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">FD</span><span>Fault Desk</span></span>
-                  
-                </a><a class="nav-link" href="../sitemap/" data-nav-path="/sitemap/">
-                  <span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">SM</span><span>Sitemap</span></span>
-                  
-                </a></div>
-    </aside>
-    
-    <main class="main">
-      
-    <div class="toolbar">
-      <div>
-        <div class="breadcrumbs">Prototype / Parent app</div>
-        <h1>Parent App</h1>
-        <p>A reassuring, action-oriented app that keeps parents informed without overwhelming them.</p>
-      </div>
-      <div class="toolbar-actions">
-        <div class="search">
-          <span>⌕</span>
-          <input type="text" placeholder="Search modules, students, routes, settings…">
-        </div>
-        <button class="icon-btn" aria-label="Notifications">⎋</button>
-        <div class="user-chip">
-          <div class="avatar">SA</div>
-          <div>
-            <strong>School Admin</strong>
-            <div class="xsmall muted">Demo access</div>
-          </div>
-        </div>
-        </div>
-    </div>
-    
-      
+<body data-demo-experience="school-erp">
+<div class="admin-shell">
+<aside class="sidebar">
+<a class="brand-lockup" href="../index.html">
+<img alt="Samvida Labs logo" src="../assets/img/samvida-logo.png"/>
+<div>
+<div class="brand-title">Samvida School ERP</div>
+<div class="brand-subtitle">School operations control plane</div>
+</div>
+</a>
+<div class="workspace-switcher">
+<div>
+<strong>Demo campus</strong>
+<span>Northstar International School · FY 2026–27</span>
+</div>
+<span class="status blue" data-tooltip="Sample campus records are preloaded for guided walkthroughs.">Sample data</span>
+</div>
+<div class="nav-label">Demo workspace</div><div class="nav-group"><a class="nav-link" data-nav-path="/index.html" href="../index.html">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">OV</span><span>Overview</span></span>
+</a><a class="nav-link" data-nav-path="/login/" href="../login/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">GO</span><span>Login &amp; Demo Access</span></span>
+</a><a class="nav-link" data-nav-path="/console/" href="../console/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">AD</span><span>Admin Console</span></span>
+<span class="nav-badge">Live</span>
+</a><a class="nav-link" data-nav-path="/admissions/" href="../admissions/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">AM</span><span>Admissions</span></span>
+<span class="nav-badge">Live</span>
+</a></div><div class="nav-label">Apps &amp; operations</div><div class="nav-group"><a class="nav-link" data-nav-path="/students/" href="../students/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">ST</span><span>Student App</span></span>
+<span class="nav-badge">Live</span>
+</a><a class="nav-link" data-nav-path="/parents/" href="../parents/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">PA</span><span>Parent App</span></span>
+<span class="nav-badge">Live</span>
+</a><a class="nav-link" data-nav-path="/faculty/" href="../faculty/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">FC</span><span>Faculty App</span></span>
+<span class="nav-badge">Live</span>
+</a><a class="nav-link" data-nav-path="/finance/" href="../finance/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">FI</span><span>Finance</span></span>
+</a><a class="nav-link" data-nav-path="/transport/" href="../transport/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">TR</span><span>Transport</span></span>
+</a><a class="nav-link" data-nav-path="/communications/" href="../communications/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">CM</span><span>Communications</span></span>
+</a><a class="nav-link" data-nav-path="/reports/" href="../reports/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">RP</span><span>Reports</span></span>
+</a></div><div class="nav-label">Administration</div><div class="nav-group"><a class="nav-link" data-nav-path="/settings/" href="../settings/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">CF</span><span>Settings</span></span>
+</a><a class="nav-link" data-nav-path="/fault-desk/" href="../fault-desk/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">FD</span><span>Fault Desk</span></span>
+</a><a class="nav-link" data-nav-path="/sitemap/" href="../sitemap/">
+<span style="display:flex;align-items:center;gap:12px"><span class="nav-icon">SM</span><span>Sitemap</span></span>
+</a></div>
+</aside>
+<main class="main">
+<div class="toolbar">
+<div>
+<div class="breadcrumbs">Workspace / Parent app</div>
+<h1>Parent App</h1>
+<p>A reassuring, action-oriented app that keeps parents informed without overwhelming them.</p>
+</div>
+<div class="toolbar-actions">
+<div class="search">
+<span>⌕</span>
+<input placeholder="Search modules, students, routes, settings…" type="text"/>
+</div>
+<button aria-label="Notifications" class="icon-btn">⎋</button>
+<div class="user-chip">
+<div class="avatar">SA</div>
+<div>
+<strong>School Admin</strong>
+<div class="xsmall muted">Demo access</div>
+</div>
+</div>
+</div>
+</div>
 <section class="app-preview">
-  <div class="card">
-    <div class="eyebrow">Parent experience</div>
-    <h3>One trusted view for communication, fees, approvals, and school life</h3>
-    <p class="note">The parent app should reduce calls to the front desk. This prototype demonstrates a clear home screen, action-oriented notifications, payment visibility, transport clarity, meeting requests, and consent workflows.</p>
-    <div class="feature-list">
-      <div class="feature"><span class="tick">✓</span><div><strong>Actionable alerts</strong><div class="note">Parents see what needs action first, not a crowded feed.</div></div></div>
-      <div class="feature"><span class="tick">✓</span><div><strong>Fee payments and receipts</strong><div class="note">Invoices, installment plans, scholarships, and receipts in one place.</div></div></div>
-      <div class="feature"><span class="tick">✓</span><div><strong>Transport and pickup control</strong><div class="note">Route changes, delay alerts, and alternate pickup approvals.</div></div></div>
-      <div class="feature"><span class="tick">✓</span><div><strong>Meetings and approvals</strong><div class="note">PTM scheduling, consent forms, trip approvals, and digital signatures.</div></div></div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="../assets/img/parent-phone.svg" alt="Parent app illustration">
-  </div>
+<div class="card">
+<div class="eyebrow">Parent experience</div>
+<h3>One trusted view for communication, fees, approvals, and school life</h3>
+<p class="note">The parent app should reduce calls to the front desk. This screen demonstrates a clear home page, action-oriented notifications, payment visibility, transport clarity, meeting requests, and consent workflows.</p>
+<div class="feature-list">
+<div class="feature"><span class="tick">✓</span><div><strong>Actionable alerts</strong><div class="note">Parents see what needs action first, not a crowded feed.</div></div></div>
+<div class="feature"><span class="tick">✓</span><div><strong>Fee payments and receipts</strong><div class="note">Invoices, installment plans, scholarships, and receipts in one place.</div></div></div>
+<div class="feature"><span class="tick">✓</span><div><strong>Transport and pickup control</strong><div class="note">Route changes, delay alerts, and alternate pickup approvals.</div></div></div>
+<div class="feature"><span class="tick">✓</span><div><strong>Meetings and approvals</strong><div class="note">PTM scheduling, consent forms, trip approvals, and digital signatures.</div></div></div>
+</div>
+</div>
+<div class="card">
+<img alt="Parent app illustration" src="../assets/img/parent-phone.svg"/>
+</div>
 </section>
-
 <section class="section cards-2">
-  <div class="card">
-    <div class="eyebrow">Parent app home</div>
-    <div class="mobile-frame">
-      <div class="mobile-screen">
-        <div class="mobile-header"><strong>Hello, Mrs. Kapoor</strong><span class="status purple">Parent</span></div>
-        <div class="screen-card">
-          <strong>Needs your attention</strong>
-          <div class="list" style="margin-top:12px">
-            <div class="list-item compact"><div><strong>Trip consent form</strong><p>Grade 6 science park visit</p></div><span class="status amber">Approve</span></div>
-            <div class="list-item compact"><div><strong>Fee installment due</strong><p>Due on 18 April</p></div><span class="status blue">Pay now</span></div>
-          </div>
-        </div>
-        <div class="app-grid">
-          <div class="app-tile"><strong>Progress</strong><p>Weekly learning summary</p></div>
-          <div class="app-tile"><strong>Meetings</strong><p>Request PTM slot</p></div>
-          <div class="app-tile"><strong>Transport</strong><p>Bus 04 on time</p></div>
-          <div class="app-tile"><strong>Notices</strong><p>3 new school updates</p></div>
-        </div>
-        <div class="screen-card"><strong>Today’s note</strong><p class="note">Grade 6 students should carry sports shoes for tomorrow’s fitness assessment.</p></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="stack">
-    <div class="card">
-      <div class="eyebrow">Communication model</div>
-      <h3>Reduce follow-up calls with clear parent journeys</h3>
-      <div class="timeline" style="margin-top:16px">
-        <div class="timeline-step"><div class="pin">1</div><div class="body"><strong>Action-first notification stack</strong><p>Important actions are pinned before general updates.</p></div></div>
-        <div class="timeline-step"><div class="pin">2</div><div class="body"><strong>One-tap digital approvals</strong><p>Trips, circulars, pickup changes, and special event permissions.</p></div></div>
-        <div class="timeline-step"><div class="pin">3</div><div class="body"><strong>Transparent fee and transport view</strong><p>Families see what is due, paid, or awaiting approval at a glance.</p></div></div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="eyebrow">Parent app configuration</div>
-      <div class="config-grid" style="margin-top:14px">
-        <div class="config-card">
-          <h4>Home widgets</h4>
-          <div class="toggle-row"><span>Action center</span><span class="toggle on"></span></div>
-          <div class="toggle-row"><span>Fee summary</span><span class="toggle on"></span></div>
-          <div class="toggle-row"><span>Transport card</span><span class="toggle on"></span></div>
-          <div class="toggle-row"><span>PTM quick request</span><span class="toggle on"></span></div>
-        </div>
-        <div class="config-card">
-          <h4>Guardrails</h4>
-          <div class="toggle-row"><span>Dual guardian consent</span><span class="toggle"></span></div>
-          <div class="toggle-row"><span>Pickup change OTP</span><span class="toggle on"></span></div>
-          <div class="toggle-row"><span>Late fee auto alert</span><span class="toggle on"></span></div>
-          <div class="toggle-row"><span>Unread escalation reminders</span><span class="toggle on"></span></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="eyebrow">Recent family interactions</div>
-      <div class="table-wrap" style="margin-top:14px">
-        <table class="table">
-          <thead><tr><th>Family</th><th>Student</th><th>Latest action</th><th>Owner</th><th>Status</th></tr></thead>
-          <tbody>
-            <tr><td>Kapoor household</td><td>Rhea Kapoor</td><td>Trip consent pending</td><td>Class teacher</td><td><span class="status amber">Awaiting</span></td></tr>
-            <tr><td>Menon household</td><td>Nikhil Menon</td><td>Installment paid</td><td>Accounts</td><td><span class="status green">Complete</span></td></tr>
-            <tr><td>Patel household</td><td>Avni Patel</td><td>PTM request submitted</td><td>Academic office</td><td><span class="status blue">Scheduled</span></td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
+<div class="card">
+<div class="eyebrow">Parent app home</div>
+<div class="mobile-frame">
+<div class="mobile-screen">
+<div class="mobile-header"><strong>Hello, Mrs. Kapoor</strong><span class="status purple">Parent</span></div>
+<div class="screen-card">
+<strong>Needs your attention</strong>
+<div class="list" style="margin-top:12px">
+<div class="list-item compact"><div><strong>Trip consent form</strong><p>Grade 6 science park visit</p></div><span class="status amber">Approve</span></div>
+<div class="list-item compact"><div><strong>Fee installment due</strong><p>Due on 18 April</p></div><span class="status blue">Pay now</span></div>
+</div>
+</div>
+<div class="app-grid">
+<div class="app-tile"><strong>Progress</strong><p>Weekly learning summary</p></div>
+<div class="app-tile"><strong>Meetings</strong><p>Request PTM slot</p></div>
+<div class="app-tile"><strong>Transport</strong><p>Bus 04 on time</p></div>
+<div class="app-tile"><strong>Notices</strong><p>3 new school updates</p></div>
+</div>
+<div class="screen-card"><strong>Today’s note</strong><p class="note">Grade 6 students should carry sports shoes for tomorrow’s fitness assessment.</p></div>
+</div>
+</div>
+</div>
+<div class="stack">
+<div class="card">
+<div class="eyebrow">Communication model</div>
+<h3>Reduce follow-up calls with clear parent journeys</h3>
+<div class="timeline" style="margin-top:16px">
+<div class="timeline-step"><div class="pin">1</div><div class="body"><strong>Action-first notification stack</strong><p>Important actions are pinned before general updates.</p></div></div>
+<div class="timeline-step"><div class="pin">2</div><div class="body"><strong>One-tap digital approvals</strong><p>Trips, circulars, pickup changes, and special event permissions.</p></div></div>
+<div class="timeline-step"><div class="pin">3</div><div class="body"><strong>Transparent fee and transport view</strong><p>Families see what is due, paid, or awaiting approval at a glance.</p></div></div>
+</div>
+</div>
+<div class="card">
+<div class="eyebrow">Parent app configuration</div>
+<div class="config-grid" style="margin-top:14px">
+<div class="config-card">
+<h4>Home widgets</h4>
+<div class="toggle-row"><span>Action center</span><span class="toggle on"></span></div>
+<div class="toggle-row"><span>Fee summary</span><span class="toggle on"></span></div>
+<div class="toggle-row"><span>Transport card</span><span class="toggle on"></span></div>
+<div class="toggle-row"><span>PTM quick request</span><span class="toggle on"></span></div>
+</div>
+<div class="config-card">
+<h4>Guardrails</h4>
+<div class="toggle-row"><span>Dual guardian consent</span><span class="toggle"></span></div>
+<div class="toggle-row"><span>Pickup change OTP</span><span class="toggle on"></span></div>
+<div class="toggle-row"><span>Late fee auto alert</span><span class="toggle on"></span></div>
+<div class="toggle-row"><span>Unread escalation reminders</span><span class="toggle on"></span></div>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="eyebrow">Recent family interactions</div>
+<div class="table-wrap" style="margin-top:14px">
+<table class="table">
+<thead><tr><th>Family</th><th>Student</th><th>Latest action</th><th>Owner</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>Kapoor household</td><td>Rhea Kapoor</td><td>Trip consent pending</td><td>Class teacher</td><td><span class="status amber">Awaiting</span></td></tr>
+<tr><td>Menon household</td><td>Nikhil Menon</td><td>Installment paid</td><td>Accounts</td><td><span class="status green">Complete</span></td></tr>
+<tr><td>Patel household</td><td>Avni Patel</td><td>PTM request submitted</td><td>Academic office</td><td><span class="status blue">Scheduled</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 </section>
-
-      <div class="footer">
-        <div>Samvida Labs · School ERP prototype · Static demo with sample data only</div>
-        <div class="inline-stats">
-          <div class="inline-stat"><strong>Admin first</strong><span>Light theme, guided flows</span></div>
-          <div class="inline-stat"><strong>Netlify ready</strong><span>Pure HTML/CSS/JS</span></div>
-        </div>
-      </div>
-    </main>
-  </div>
-  <script src="../assets/js/app.js"></script>
+<div class="footer">
+<div>Samvida Labs · School ERP demonstration · Sample campus data for guided walkthroughs</div>
+<div class="inline-stats">
+<div class="inline-stat"><strong>Admin first</strong><span>Clear decisions, clean navigation</span></div>
+<div class="inline-stat"><strong>Role journeys</strong><span>Admissions, parent, faculty, finance, operations</span></div>
+</div>
+</div>
+</main>
+</div>
+<script src="../assets/js/app.js"></script>
 </body>
 </html>
